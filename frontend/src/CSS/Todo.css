@@ -1,0 +1,94 @@
+.todo {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width */
+    min-height: 500px;
+    border-radius: 20px;
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todo-header{
+    margin-top: 84px;
+    color: #002765;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+}
+.todo-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.todo-input{
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+.todo-add-btn{
+    border-radius: 50px;
+    background: #ff6739;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;   
+}
+.todo-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.todo-delete-btn{
+    border-radius: 50px;
+    background: #ec2314;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;   
+}
+.todo-update-btn{
+    border-radius: 50px;
+    background: #155202;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;   
+}
+
+.todo .addButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 5px; /* Adjust padding for a smaller size */
+}
