@@ -56,3 +56,25 @@
 .actionButtons a:hover {
     opacity: 0.8;
 }
+.filterButtons {
+    margin-top: 10px;
+  }
+  
+  .filterButtons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .filterButtons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filterButtons button.active {
+    background-color: #0056b3;
+  }
+  
